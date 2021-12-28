@@ -1,0 +1,38 @@
+{
+    "name": "TLE",
+    "description": "Discord Bot for Competitive Programming",
+    "keywords": [
+      "codeforces",
+      "codechef",
+      "discord-bot",
+      "atcoder"
+    ],
+    "repository": "https://github.com/GrimZZZ-404/TLE/",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Discord Bot Token",
+        "required": true
+      },
+      "CLIST_API_TOKEN": {
+        "description": "https://clist.by/ API Token",
+        "required": true
+      },
+      "LOGGING_COG_CHANNEL_ID": {
+        "description": "The Discord Channel ID of a Discord Channel where you want error messages sent to."
+      },
+      "ALLOW_DUEL_SELF_REGISTER": {
+        "description": "Boolean value indicating if self registration for duels is enabled.",
+        "value": "true",
+        "required": true
+      },
+      "TLE_MODERATOR": {
+        "description": "The name of the role that can run moderator commands of the bot.",
+        "value": "Moderator"
+      },
+      "FIREBASE_ADMIN_JSON": {
+        "description": "Contents of Firebase Admin File. Encode it using https://www.base64encode.org/",
+        "value": "true",
+        "required": true
+      }
+    }
+}
