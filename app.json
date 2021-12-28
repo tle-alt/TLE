@@ -31,7 +31,6 @@
       },
       "FIREBASE_ADMIN_JSON": {
         "description": "Contents of Firebase Admin File. Encode it using https://www.base64encode.org/",
-        "value": "true",
         "required": true
       }
     }
