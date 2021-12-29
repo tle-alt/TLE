@@ -7,7 +7,7 @@ import discord
 from logging.handlers import TimedRotatingFileHandler
 from os import environ
 from pathlib import Path
-
+from json import loads
 from os import environ
 import firebase_admin
 from firebase_admin import credentials
