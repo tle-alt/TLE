@@ -37,6 +37,7 @@
       "STORAGE_BUCKET": {
         "description": " Bucket URL",
         "required": true
+       }
 
     }
 }
