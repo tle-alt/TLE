@@ -8,6 +8,7 @@
       "atcoder"
     ],
     "repository": "https://github.com/GrimZZZ-404/TLE/",
+    "stack": "container",
     "env": {
       "BOT_TOKEN": {
         "description": "Discord Bot Token",
