@@ -3,6 +3,7 @@ import asyncio
 import distutils.util
 import logging
 import os
+import base64
 import discord
 from logging.handlers import TimedRotatingFileHandler
 from os import environ
